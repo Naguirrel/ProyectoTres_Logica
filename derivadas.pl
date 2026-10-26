@@ -1,7 +1,6 @@
-% Derivacion simbolica con respecto a x.
+% Derivacion con respecto a x.
 % Sintaxis admitida: numeros, x, +, -, *, /, ^ (exponente numerico),
 % sen/1, cos/1, tan/1, arctan/1, exp/1 y ln/1.
-% Se construye el resultado sin simplificarlo.
 
 derivada(Expresion, Resultado) :-
     ground(Expresion),
